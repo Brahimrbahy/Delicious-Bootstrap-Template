@@ -11851,5 +11851,97 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-color: transparent;
+}
+
+.fontf {
+  font-family: Satisfy;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.t1 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.t1 h2, .t1 .h2 {
+  color: white;
+}
+
+.t2 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.t3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.t3 h2, .t3 .h2 {
+  color: white;
+  font-family: Satisfy;
+}
+
+.about-1 {
+  display: flex;
+  gap: 20px;
+  background-color: #fffaf3;
+  padding: 60px 120px 60px 120px;
+}
+.about-1 i {
+  color: #ffb03b;
+}
+
+img {
+  width: 540px;
+  height: 340px;
+}
+
+h3, .h3 {
+  font-family: Satisfy;
+  font-weight: 600;
+  width: 540px;
+  height: 60px;
+  padding: 0 0 10px;
+}
+
+p1 {
+  font-style: italic;
+  width: 540px;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  padding: 10px 0 0 10px;
+}
+
+p {
+  width: 540px;
+  height: 70;
+}
+
+.why-us {
+  background-color: #fffaf3;
+}
+.why-us .twhy {
+  color: #ffb040;
+  text-align: center;
+  background-color: #fff3e0;
+  font-size: 13px;
+  width: 90px;
+  border-radius: 50px;
+  font-weight: 700;
+  padding: 8px 20px;
+}
 
 /*# sourceMappingURL=app.css.map */

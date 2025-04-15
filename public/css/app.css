@@ -11851,8 +11851,42 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
-  background-color: transparent;
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 0;
+  padding-inline: 50px;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  color: #ffffff;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar a:hover {
+  color: #f8aa39;
+}
+.navbar h1, .navbar .h1 {
+  font-family: Satisfy;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+.navbar .a1 {
+  color: #f8aa39;
+}
+
+header .imgcar {
+  width: 100%;
+  height: 100%;
+}
+header img {
+  opacity: 2;
 }
 
 .fontf {
@@ -11868,8 +11902,29 @@ header {
   top: 40%;
   left: 30%;
 }
+.t1 p {
+  color: #ffffff;
+  width: 700px;
+  height: 70px;
+}
 .t1 h2, .t1 .h2 {
   color: white;
+  font-family: Satisfy;
+}
+.t1 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 30px;
+  border: 2px #ffb03b solid;
+  border-radius: 50px;
+}
+.t1 a:hover {
+  background-color: #ffb03b;
+}
+.t1 span {
+  color: #ffb03b;
+  color: wihte;
+  padding: 8px 30px;
 }
 
 .t2 {
@@ -11877,15 +11932,49 @@ header {
   top: 40%;
   left: 30%;
 }
+.t2 p {
+  color: #ffffff;
+  width: 700px;
+  height: 70px;
+}
+.t2 h2, .t2 .h2 {
+  color: white;
+  font-family: Satisfy;
+}
+.t2 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 30px;
+  border: 2px #ffb03b solid;
+  border-radius: 50px;
+}
+.t2 a:hover {
+  background-color: #ffb03b;
+}
 
 .t3 {
   position: absolute;
   top: 40%;
   left: 30%;
 }
+.t3 p {
+  color: #ffffff;
+  width: 700px;
+  height: 70px;
+}
 .t3 h2, .t3 .h2 {
   color: white;
   font-family: Satisfy;
+}
+.t3 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 30px;
+  border: 2px #ffb03b solid;
+  border-radius: 50px;
+}
+.t3 a:hover {
+  background-color: #ffb03b;
 }
 
 .about-1 {
@@ -11930,18 +12019,76 @@ p {
   height: 70;
 }
 
-.why-us {
-  background-color: #fffaf3;
+.wone {
+  text-align: center;
+  padding-top: 50px;
 }
-.why-us .twhy {
+
+.twhy {
   color: #ffb040;
   text-align: center;
   background-color: #fff3e0;
   font-size: 13px;
-  width: 90px;
-  border-radius: 50px;
   font-weight: 700;
+  border-radius: 50px;
   padding: 8px 20px;
+  margin: 0;
+}
+
+.cul3 {
+  display: flex;
+  gap: 30px;
+  padding-inline: 150px;
+}
+
+.spn {
+  color: #ffb03b;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+.spn:hover {
+  color: #fff;
+}
+
+.clo1 {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 270px;
+  padding: 50px 30px;
+  cursor: pointer;
+}
+.clo1:hover {
+  transition: 1s;
+  background-color: #ffb040;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pp1 {
+  width: 290px;
+  height: 60px;
+}
+
+.wone {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colors {
+  color: #ffb03b;
+}
+
+.ffstyle {
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 /*# sourceMappingURL=app.css.map */

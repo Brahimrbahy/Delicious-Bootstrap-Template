@@ -1,12 +1,17 @@
 .alllb
     display: flex
     flex-direction: column
+    width: 310px
+    padding: 0px 12px
+    border-right: 2px solid black
 
 .special
     display: flex
     position: absolute
     background-color: #fff
     z-index: 0
+    width: 690px
+    padding-left: 30px
     img
         width: 300px
         height: 300px
@@ -15,10 +20,13 @@
         height: 40px
     h3
         width: 600px
-        height: 40px
+        height: auto
 
 .iams
     display: flex
+    padding-bottom: 300px
+    padding-inline: 10%
+
 
 #lb1
     &:checked + .cl1
@@ -44,3 +52,33 @@
     &:checked + .cl5
         z-index: 10
 
+
+.sps
+    padding-bottom: 100px
+
+
+.tmenu
+    color: #ffb040
+    text-align: center
+    background-color: #fff3e0
+    font-size: 13px
+    font-weight: 700
+    border-radius: 50px
+    padding: 8px 20px
+    width: 100px
+    text-align: center
+
+.coco
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+
+.psps
+    &:hover
+        color: #ffb040
+
+
+.italic
+    font-style: italic

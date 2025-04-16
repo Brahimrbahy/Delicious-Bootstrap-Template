@@ -12249,24 +12249,6 @@ input {
   opacity: 1;
 }
 
-.fimg {
-  background-image: url("../images/gallery/gallery-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 270px;
-  height: 200px;
-}
-.fimg:hover {
-  transform: scale(1.3);
-  transform-origin: 50% 50%;
-}
-
-.img-4 {
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-}
-
 .treechefs {
   display: flex;
   justify-content: space-evenly;
@@ -12289,13 +12271,14 @@ input {
 
 .namechef {
   padding: 10px 20px;
+  border-bottom: 1px solid #4b4b4b !important;
 }
 
 .chefnfs {
   background-color: #fff;
   position: absolute;
   width: 350px;
-  height: 90px;
+  height: 100px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px 0px;
   top: 350px;
   left: 25px;
@@ -12303,6 +12286,86 @@ input {
 
 .poschef {
   position: relative;
+}
+
+.img-bg {
+  margin-top: 300px;
+}
+
+.cro1 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.alllb {
+  display: flex;
+  flex-direction: column;
+}
+
+.special {
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  z-index: 0;
+}
+.special img {
+  width: 300px;
+  height: 300px;
+}
+.special p {
+  width: 600px;
+  height: 40px;
+}
+.special h3, .special .h3 {
+  width: 600px;
+  height: 40px;
+}
+
+.iams {
+  display: flex;
+}
+
+#lb1:checked + .cl1 {
+  z-index: 10;
+}
+
+#lb2:checked + .cl2 {
+  z-index: 10;
+}
+
+#lb3:checked + .cl3 {
+  z-index: 10;
+}
+
+#lb4:checked + .cl4 {
+  z-index: 10;
+}
+
+#lb5:checked + .cl5 {
+  z-index: 10;
+}
+
+.img-4 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.img-4 img {
+  width: 360px;
+  height: 270px;
+}
+
+.gimg {
+  overflow: hidden;
+}
+.gimg img {
+  transition: 1s;
+}
+.gimg img:hover {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -11898,6 +11898,7 @@ header img {
 }
 
 .t1 {
+  text-align: center;
   position: absolute;
   top: 40%;
   left: 30%;
@@ -11906,10 +11907,14 @@ header img {
   color: #ffffff;
   width: 700px;
   height: 70px;
+  text-align: start;
+  padding-bottom: 120px;
+  padding-top: 30px;
 }
 .t1 h2, .t1 .h2 {
   color: white;
   font-family: Satisfy;
+  font-size: 3rem;
 }
 .t1 a {
   text-decoration: none;
@@ -11924,10 +11929,11 @@ header img {
 .t1 span {
   color: #ffb03b;
   color: wihte;
-  padding: 8px 30px;
+  padding: 8px 0px;
 }
 
 .t2 {
+  text-align: center;
   position: absolute;
   top: 40%;
   left: 30%;
@@ -11936,10 +11942,14 @@ header img {
   color: #ffffff;
   width: 700px;
   height: 70px;
+  text-align: start;
+  padding-bottom: 120px;
+  padding-top: 30px;
 }
 .t2 h2, .t2 .h2 {
   color: white;
   font-family: Satisfy;
+  font-size: 3rem;
 }
 .t2 a {
   text-decoration: none;
@@ -11953,6 +11963,7 @@ header img {
 }
 
 .t3 {
+  text-align: center;
   position: absolute;
   top: 40%;
   left: 30%;
@@ -11961,10 +11972,14 @@ header img {
   color: #ffffff;
   width: 700px;
   height: 70px;
+  text-align: start;
+  padding-bottom: 120px;
+  padding-top: 30px;
 }
 .t3 h2, .t3 .h2 {
   color: white;
   font-family: Satisfy;
+  font-size: 3rem;
 }
 .t3 a {
   text-decoration: none;
@@ -12014,7 +12029,7 @@ ul li {
   padding: 10px 0 0 10px;
 }
 
-p {
+.pabout {
   width: 540px;
   height: 70;
 }
@@ -12038,7 +12053,7 @@ p {
 .cul3 {
   display: flex;
   gap: 30px;
-  padding-inline: 150px;
+  padding-inline: 200px;
 }
 
 .spn {
@@ -12063,6 +12078,9 @@ p {
   background-color: #ffb040;
   color: #ffffff;
   padding: 10px 30px;
+}
+.clo1:hover .spn {
+  color: white;
 }
 
 h4, .h4 {
@@ -12091,6 +12109,10 @@ h4, .h4 {
   padding-bottom: 80px;
 }
 
+.pabout {
+  width: auto;
+}
+
 .menu1 {
   padding-top: 100px;
 }
@@ -12114,6 +12136,7 @@ h4, .h4 {
 }
 
 .ffstyle {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 80px;
 }
@@ -12124,8 +12147,11 @@ h4, .h4 {
 
 .testy {
   display: flex;
+  gap: 50px;
   justify-content: center;
-  justify-content: space-between;
+}
+.testy .colors {
+  color: #ffb03b;
 }
 
 .ym1 {
@@ -12139,6 +12165,7 @@ h4, .h4 {
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 500px;
 }
 
 .po1 {
@@ -12207,8 +12234,75 @@ input {
 }
 
 .just-do-eat {
+  display: flex;
   position: relative;
   padding-inline: 100px;
+  flex-wrap: wrap;
+  padding-inline: 250px;
+  padding-bottom: 200px;
+}
+
+.img-bg {
+  background-image: url("../images/events-bg.jpg");
+  width: 100%;
+  height: 584px;
+  opacity: 1;
+}
+
+.fimg {
+  background-image: url("../images/gallery/gallery-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 200px;
+}
+.fimg:hover {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+.img-4 {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.treechefs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.chefpic img {
+  width: 400px;
+  height: 400px;
+}
+
+.clo {
+  color: #c6c6c6;
+}
+
+.infochef {
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.namechef {
+  padding: 10px 20px;
+}
+
+.chefnfs {
+  background-color: #fff;
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px 0px;
+  top: 350px;
+  left: 25px;
+}
+
+.poschef {
+  position: relative;
 }
 
 /*# sourceMappingURL=app.css.map */

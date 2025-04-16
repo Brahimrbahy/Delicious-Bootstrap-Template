@@ -11,3 +11,26 @@
     justify-content: center;
 
 }
+
+
+#txt{
+    width: 500px;
+    height: 250px;
+}
+
+.textandbut{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.text11{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.n1{
+    width: 500px;
+}
